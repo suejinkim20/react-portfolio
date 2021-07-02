@@ -15,7 +15,7 @@ const styles = {
   },
 };
 
-function Navbar() {
+function Navigation () {
   return (
     <div style={styles.card}>
       <div style={styles.heading}>Home</div>
@@ -23,4 +23,4 @@ function Navbar() {
   );
 }
 
-export default Navbar;
+export default Navigation;
