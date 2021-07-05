@@ -5,13 +5,14 @@ import Row from 'react-bootstrap/Row'
 
 export default function About() {
     return (
-        <Container className="about-me" id="about-me">
+        <Container className="about-me mt-5" id="about-me">
             <article className="about-me-photo m-3 mt-4">
                     <Image src="./images/suejinkim-photo.jpg" width="150px" roundedCircle/>
                 </article>  
                 <h1>Sue Jin Kim</h1>
                 <p className="subheader">{"<"}aspiring{">"} full stack web developer</p>
                 <p>MongoDb/Mongoose, ExpressJs, ReactJs, NodeJs</p>
+                <hr />
             <Row className='mb-5'>
                 <div className="about-me-section col-8">
                     <article className="about-me-text">

@@ -2,31 +2,38 @@ import React from 'react'
 import Form from 'react-bootstrap/Form'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
+import Button from 'react-bootstrap/Button'
+import Card from 'react-bootstrap/Card'
 
 export default function Contact() {
     return(
-        <div className="mt-5">
+        <div className="mt-5 mx-5 mb-3">
             {/* <h2>Contact</h2> */}
             <Row>
                 <div className="col-8">
-                    <h3>Get In Touch With Me</h3>
-                    <Form className="m-4">
-                        <Row className="m-3">
-                            <Col className="col-5 m-2">
+                    <h2>Hi, there!</h2>
+                    <p>Let's get in touch.</p>
+                    <Form className="">
+                        <Row className="my-3">
+                        <Form.Label>Name</Form.Label>
+                            <Col className="col-6">
                                 <Form.Control placeholder="First name" />
                             </Col>
-                            <Col className="col-5 m-2">
+                            <Col className="col-6">
                                 <Form.Control placeholder="Last name" />
                             </Col>
                         </Row>
-                        <Form.Group className="m-3" controlId="exampleForm.ControlInput1">
+                        <Form.Group className="my-3" controlId="exampleForm.ControlInput1">
                             <Form.Label>Email address</Form.Label>
                             <Form.Control type="email" placeholder="name@example.com" />
                         </Form.Group>
-                        <Form.Group className="m-3" controlId="exampleForm.ControlTextarea1">
+                        <Form.Group className="my-3" controlId="exampleForm.ControlTextarea1">
                             <Form.Label>Message</Form.Label>
                             <Form.Control as="textarea" rows={3} />
                         </Form.Group>
+                        <Button variant="info" type="submit">
+                            Submit
+                        </Button>
                     </Form>
                 </div>
 
