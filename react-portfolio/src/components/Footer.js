@@ -2,9 +2,9 @@ import React from 'react';
 
 function Footer() {
   return (
-    <header className="footer">
-      Footer
-    </header>
+    <footer className="footer">
+      <p>This portfolio is a work in progress.</p>
+    </footer>
   );
 }
 

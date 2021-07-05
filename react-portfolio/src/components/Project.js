@@ -23,4 +23,4 @@ const ProjectCards = ({ project }) => {
     );
   };
   
-export default Footer;
+export default ProjectCards;

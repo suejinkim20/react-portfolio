@@ -1,3 +1,8 @@
+import React from 'react'
 import ProjectCards from '../components/Project'
 
-<ProjectCards />
+export default function Portfolio() {
+    return (
+        <ProjectCards />
+    )
+}
