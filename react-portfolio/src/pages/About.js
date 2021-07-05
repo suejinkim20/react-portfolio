@@ -3,25 +3,16 @@ import React from 'react'
 export default function About() {
     return (
         <section class="about-me" id="about-me">
+            <article class="about-me-photo">
+                    <img src="./images/suejinkim-photo.jpg" width="150px" />
+                </article>  
+                <h1>Sue Jin Kim</h1>
+                <p class="subheader">{"<"}aspiring{">"} web developer</p>
+                <p>HTML, CSS, JavaScript, NodeJS, Express, MongoDB</p>
             <div class="about-me-section">
                 <article class="about-me-text">
                     <h2>About Me</h2>
-                    <p>I am currently studying to become a full-stack web developer through unc-ch's coding bootcamp. I am drawn to the challenge of problem solving and how creative or logistical ideas can be addressed by online or software programs. I want to learn to create and improve digital tools that are helpful to users.</p>
-                </article>
-                <article class="contact-me">
-                    <h2>Contact</h2>
-                    <p>
-                        <a href="https://www.linkedin.com/in/suejin-kim-aa60571bb" class="contact-links"><i class="fab fa-linkedin"></i> LinkedIn</a>
-                    </p>
-                    <p>
-                        <a href="https://github.com/suejinkim20" class="contact-links"><i class="fab fa-github-square"></i> GitHub</a>
-                    </p>
-                    <p>
-                        <a href="https://docs.google.com/document/d/1dTTjjlqiw5mumTfnTBpw4k-b-i-I9mNS-mTOpMu8JAA/edit?usp=sharing" class="contact-links"> <i class="fas fa-file"></i> Resume</a>
-                    </p>
-                    <p>
-                        <a href="kim.suejin.20@gmail.com" class="contact-links"><i class="fas fa-envelope-square"></i> Email</a>
-                    </p>
+                    <p>Full Stack Web Development Student at UNC-CH Coding Bootcamp. Dedicated, creative, self-reflective problem solver. Passionate about improving user experiences on the web. Constructive collaborator committed to finding and communicating solutions.</p>
                 </article>
 
             </div>
