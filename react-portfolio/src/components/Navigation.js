@@ -19,6 +19,9 @@ function Navigation () {
   return (
     <div style={styles.card}>
       <div style={styles.heading}>Home</div>
+      <div style={styles.heading}>About Me</div>
+      <div style={styles.heading}>Portfolio</div>
+      <div style={styles.heading}>Contact</div>
     </div>
   );
 }
