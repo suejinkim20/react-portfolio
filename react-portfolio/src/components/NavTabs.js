@@ -1,8 +1,11 @@
 import React from 'react';
+import Navbar from 'react-bootstrap/Navbar'
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <ul className="nav nav-tabs">
+    <>
+    <Navbar>
+    <ul className="nav nav-tabs topnav">
       <li className="nav-item">
         <a
           href="#about"
@@ -31,6 +34,8 @@ function NavTabs({ currentPage, handlePageChange }) {
         </a>
       </li>
     </ul>
+    </Navbar>
+  </>
   );
 }
 
