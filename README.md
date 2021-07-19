@@ -19,6 +19,7 @@ GIVEN a single-page application portfolio for a web developer
 * Footer displays text or icon links to the developer’s GitHub and LinkedIn profiles, and profile on a third platform (Stack Overflow, Twitter)
 
 Issues that are still being addressed: 
+* Images keep breaking on About page and Portfolio page. It works on localhost but not github pages
 * Error messages on contact form only display upon submit, not when clicked away
 * Contact form is not functional
 * Resume is not its own page, but a link on the contact section and about me section
@@ -31,9 +32,6 @@ Notes to self:
 ## Usage
 This website is a portfolio website intended to showcase the website developer's work and information. The website is deployed at the following link: https://suejinkim20.github.io/react-portfolio/
 
-The following screenshots show the website on a web browser.
-
-![Screen Shot 1](assets/images/webpage-screenshot.png)
 
 
 ## Credits
