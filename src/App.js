@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import NavTabs from './components/NavTabs';
 import About from './pages/About';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
@@ -12,21 +11,20 @@ export default function App() {
 
   const renderPage = () => {
     
-    if (currentPage === 'About') {
-      return <About />;
+    if (currentPage === 'Contact') {
+      return <Contact />;
     }
     if (currentPage === 'Portfolio') {
       return <Portfolio />;
     }
-    return <Contact />;
+    return <About />;
   };
 
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
     <div>
-      <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
-      <Header />
+      <Header currentPage={currentPage} handlePageChange={handlePageChange}/>
       {renderPage()}
       <Footer />
     </div>
