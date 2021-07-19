@@ -1,8 +1,8 @@
 import React from 'react'
-import { Github, FileEarmarkText, EnvelopeOpen, Linkedin } from 'react-bootstrap-icons'
+import { Github, FileEarmarkText, EnvelopeOpen, Linkedin, Stack } from 'react-bootstrap-icons'
 import Row from 'react-bootstrap/Row'
 import ContactForm from '../components/ContactForm'
-import Link from 'react-bootstrap/Link'
+// import Link from 'react-bootstrap/Link'
 
 export default function Contact() {
 
@@ -13,11 +13,18 @@ export default function Contact() {
                 <div className="col-8">
                     <h2>Hi, there!</h2>
                     <p>Let's get in touch.</p>
-                    <p>Note: this form is not yet fully functional. Please email me directly at <Link href="mailto:kim.suejin.20@gmail.com">kim.suejin.20@gmail.com</Link> with any questions or inquiries.</p>
+                    <p>Note: this form is not yet fully functional. Please email me directly at kim.suejin.20@gmail.com with any questions or inquiries.</p>
                     <ContactForm />
+                    {/* <Link href="mailto:kim.suejin.20@gmail.com"></Link> */}
                 </div>
 
                 <article className="col-4 contact-me text-center d-flex flex-column align-items-center">
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+
                     <h3>Contact Info</h3>
                     <p>
                         <Linkedin />
@@ -26,6 +33,10 @@ export default function Contact() {
                     <p>
                         <Github />
                         <a href="https://github.com/suejinkim20" className="contact-links"><i class="fab fa-github-square"></i> GitHub</a>
+                    </p>
+                    <p>
+                        <Stack />
+                        <a href="https://stackexchange.com/users/22248515/suejin-kim" className="contact-links"><i class="fab fa-github-square"></i> Stack Exchange</a>
                     </p>
                     <p>
                         < FileEarmarkText />

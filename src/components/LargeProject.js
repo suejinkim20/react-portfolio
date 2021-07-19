@@ -4,6 +4,7 @@ import Button from 'react-bootstrap/Button'
 import Row from 'react-bootstrap/Row'
 
 export default function LargeProject({largeProjects}) {  
+
     return (
         <Row className='m-2 justify-content-center'>
             {largeProjects.map((project) => (

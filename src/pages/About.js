@@ -2,12 +2,15 @@ import React from 'react'
 import Container from 'react-bootstrap/Container'
 import Image from 'react-bootstrap/Image'
 import Row from 'react-bootstrap/Row'
+import { Github, FileEarmarkText, EnvelopeOpen, Linkedin, Stack } from 'react-bootstrap-icons'
+import suejinKim from '../images/suejinkimPhoto.jpg'
+
 
 export default function About() {
     return (
         <Container className="about-me mt-5 text-center" id="about-me">
             <article className="about-me-photo m-3 mt-4">
-                    <Image src="./src/images/suejinkim-photo.jpg" width="150px" roundedCircle/>
+                    <Image src={suejinKim} width="150px" roundedCircle/>
                 </article>  
                 <h1>Sue Jin Kim</h1>
                 <p className="subheader">{"<"}aspiring{">"} full stack web developer</p>
@@ -23,18 +26,25 @@ export default function About() {
                 </div>
                 <article className="contact-me col-4">
                     <p>
+                        <Linkedin />
                         <a href="https://www.linkedin.com/in/suejin-kim-aa60571bb" className="contact-links"><i class="fab fa-linkedin"></i> LinkedIn</a>
                     </p>
                     <p>
+                        <Github />
                         <a href="https://github.com/suejinkim20" className="contact-links"><i class="fab fa-github-square"></i> GitHub</a>
                     </p>
                     <p>
-                        <a href="https://docs.google.com/document/d/1dTTjjlqiw5mumTfnTBpw4k-b-i-I9mNS-mTOpMu8JAA/edit?usp=sharing" className="contact-links"> <i class="fas fa-file"></i> Resume</a>
+                        <Stack />
+                        <a href="https://stackexchange.com/users/22248515/suejin-kim" className="contact-links"><i class="fab fa-github-square"></i> Stack Exchange</a>
                     </p>
                     <p>
-                        <a href="mailto:kim.suejin.20@gmail.com" className="contact-links"><i class="fas fa-envelope-square"></i> Email</a> 
+                        < FileEarmarkText />
+                        <a href="https://docs.google.com/document/d/1dTTjjlqiw5mumTfnTBpw4k-b-i-I9mNS-mTOpMu8JAA/edit?usp=sharing" className="contact-links"> Resume</a>
                     </p>
-
+                    <p>
+                        < EnvelopeOpen />
+                        <a href="mailto:kim.suejin.20@gmail.com" className="contact-links"> Email</a> 
+                    </p>
                 </article>
             </Row>
         </Container>
