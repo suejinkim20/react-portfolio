@@ -2,6 +2,7 @@ import React from 'react'
 import { Github, FileEarmarkText, EnvelopeOpen, Linkedin } from 'react-bootstrap-icons'
 import Row from 'react-bootstrap/Row'
 import ContactForm from '../components/ContactForm'
+import Link from 'react-bootstrap/Link'
 
 export default function Contact() {
 
@@ -12,7 +13,7 @@ export default function Contact() {
                 <div className="col-8">
                     <h2>Hi, there!</h2>
                     <p>Let's get in touch.</p>
-                    <p>Note: this form is not yet fully functional. Please email me directly at kim.suejin.20@gmail.com with any questions or inquiries.</p>
+                    <p>Note: this form is not yet fully functional. Please email me directly at <Link href="mailto:kim.suejin.20@gmail.com">kim.suejin.20@gmail.com</Link> with any questions or inquiries.</p>
                     <ContactForm />
                 </div>
 
@@ -32,7 +33,7 @@ export default function Contact() {
                     </p>
                     <p>
                         < EnvelopeOpen />
-                        <a href="kim.suejin.20@gmail.com" className="contact-links"><i class="fas fa-envelope-square"></i> Email</a> 
+                        <a href="mailto:kim.suejin.20@gmail.com" className="contact-links"><i class="fas fa-envelope-square"></i> Email</a> 
                     </p>
 
                 </article>

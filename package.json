@@ -1,8 +1,8 @@
 {
   "name": "react-portfolio",
-  "homepage": "https://suejinkim20.github.io/react-portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://suejinkim20.github.io/react-portfolio",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.35",
     "@fortawesome/free-solid-svg-icons": "^5.15.3",
