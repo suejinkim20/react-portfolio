@@ -10,7 +10,7 @@ export default function Contact() {
         <div className="mt-5 mx-5 mb-3">
             {/* <h2>Contact</h2> */}
             <Row>
-                <div className="col-8">
+                <div className="col-lg-8 col-sm-12">
                     <h2>Hi, there!</h2>
                     <p>Let's get in touch.</p>
                     <p>Note: this form is not yet fully functional. Please email me directly at kim.suejin.20@gmail.com with any questions or inquiries.</p>
@@ -18,7 +18,7 @@ export default function Contact() {
                     {/* <Link href="mailto:kim.suejin.20@gmail.com"></Link> */}
                 </div>
 
-                <article className="col-4 contact-me text-center d-flex flex-column align-items-center">
+                <article className="col-lg-4 col-sm-12 contact-me text-center d-flex flex-column align-items-center">
                     <br></br>
                     <br></br>
                     <br></br>
