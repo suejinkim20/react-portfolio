@@ -20,8 +20,8 @@ export default function About() {
                 <div className="col-lg-7 col-sm-12">
                     <article className="about-me-text">
                         <h2>About Me</h2>
-                        <p>Dedicated, creative, self-reflective problem solver. Passionate about designing and writing clean, user-friendly, and efficient web applications. Constructive collaborator committed to finding and communicating solutions.</p>
-                        <p>Graduate of the UNC-CH Full Stack Web Development Boot Camp. Former educator looking to diversify my skill set and transition to web development full time.</p>
+                        <p>Full Stack Web Developer (MERN Stack) with a background in classroom teaching.  Recognized for strong work ethic and relationship-building skills with colleagues and students. Dedicated, creative, self-reflective problem solver. Passionate about designing and writing clean, user-friendly, and efficient web applications. Constructive collaborator committed to finding and communicating solutions. Perpetual learner and improver. Graduate of UNC- Chapel Hill Coding Bootcamp with an A+ average. 
+</p>
                     </article>
 
                 </div>
@@ -40,7 +40,7 @@ export default function About() {
                     </p>
                     <p>
                         <FileEarmarkText />
-                        <a href="https://docs.google.com/document/d/1dTTjjlqiw5mumTfnTBpw4k-b-i-I9mNS-mTOpMu8JAA/edit?usp=sharing" className="contact-links"> Resume</a>
+                        <a href="https://docs.google.com/document/d/1FHYtUp9Z1o2NoqDDpTC9lFb6kYhy2q35asMIK_Luk1g/edit?usp=sharing" className="contact-links"> Resume</a>
                     </p>
                     <p>
                         <EnvelopeOpen />

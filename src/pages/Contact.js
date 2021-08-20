@@ -11,14 +11,16 @@ export default function Contact() {
             {/* <h2>Contact</h2> */}
             <Row>
                 <div className="col-lg-8 col-sm-12">
+                    <br></br>
                     <h2>Hi, there!</h2>
                     <p>Let's get in touch.</p>
                     <p>Note: this form is not yet fully functional. Please email me directly at kim.suejin.20@gmail.com with any questions or inquiries.</p>
                     <ContactForm />
                     {/* <Link href="mailto:kim.suejin.20@gmail.com"></Link> */}
+                    <br></br>
                 </div>
 
-                <article className="col-lg-4 col-sm-12 contact-me text-center d-flex flex-column align-items-center">
+                <div className="col-lg-4 col-sm-12 contact-me text-center d-flex flex-column align-items-center">
                     <br></br>
                     <br></br>
                     <br></br>
@@ -40,14 +42,14 @@ export default function Contact() {
                     </p>
                     <p>
                         < FileEarmarkText />
-                        <a href="https://docs.google.com/document/d/1dTTjjlqiw5mumTfnTBpw4k-b-i-I9mNS-mTOpMu8JAA/edit?usp=sharing" className="contact-links"> <i class="fas fa-file"></i> Resume</a>
+                        <a href="https://docs.google.com/document/d/1FHYtUp9Z1o2NoqDDpTC9lFb6kYhy2q35asMIK_Luk1g/edit?usp=sharing" className="contact-links"> <i class="fas fa-file"></i> Resume</a>
                     </p>
                     <p>
                         < EnvelopeOpen />
                         <a href="mailto:kim.suejin.20@gmail.com" className="contact-links"><i class="fas fa-envelope-square"></i> Email</a> 
                     </p>
 
-                </article>
+                </div>
             </Row>
         </div>
     )

@@ -12,12 +12,8 @@ export default function Portfolio() {
         <div className="mt-5">
         <h1 className="text-center">My Work</h1>
         <Container fluid className="portfolio-cards">
-            {/* large projects */}
             <LargeProject largeProjects={largeProjects} />
-            
-            
             <SmallProject smallProjects={smallProjects} />
-
         </Container>       
         </div>
     )

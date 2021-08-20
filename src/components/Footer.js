@@ -4,7 +4,8 @@ import { Github, EnvelopeOpen, Linkedin, Stack } from 'react-bootstrap-icons'
 function Footer() {
   return (
     <footer className="footer text-center">
-      <p>This portfolio is a work in progress.</p>
+      {/* <p>This portfolio is a work in progress.</p> */}
+      <br></br>
       <p>
         <a href="https://www.linkedin.com/in/suejin-kim-aa60571bb" className="contact-links p-3">
           <Linkedin color='white'/>
@@ -21,6 +22,7 @@ function Footer() {
           < Stack color='white'/>
         </a>
       </p>
+      <br></br>
     </footer>
   );
 }
