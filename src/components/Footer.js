@@ -7,19 +7,19 @@ function Footer() {
       {/* <p>This portfolio is a work in progress.</p> */}
       <br></br>
       <p>
-        <a href="https://www.linkedin.com/in/suejin-kim-aa60571bb" className="contact-links p-3">
-          <Linkedin color='white'/>
+        <a href="https://www.linkedin.com/in/suejinkim" className="contact-links p-3">
+          <Linkedin color='white' fontSize="large"/>
         </a>
      
         <a href="https://github.com/suejinkim20" className="contact-links p-3">
-          <Github color='white'/>
+          <Github color='white' fontSize="large"/>
         </a>
     
         <a href="mailto:kim.suejin.20@gmail.com" className="contact-links p-3">
-          < EnvelopeOpen color='white'/>
+          < EnvelopeOpen color='white' fontSize="large"/>
         </a> 
         <a href="https://stackexchange.com/users/22248515/suejin-kim" className="contact-links p-3">
-          < Stack color='white'/>
+          < Stack color='white' fontSize="large"/>
         </a>
       </p>
       <br></br>

@@ -28,7 +28,7 @@ export default function About() {
                 <div className="contact-me col-lg-4 col-sm-12 text-center">
                     <p>
                         <Linkedin />
-                        <a href="https://www.linkedin.com/in/suejin-kim-aa60571bb" className="contact-links"> LinkedIn</a>
+                        <a href="https://www.linkedin.com/in/suejinkim" className="contact-links"> LinkedIn</a>
                     </p>
                     <p>
                         <Github />

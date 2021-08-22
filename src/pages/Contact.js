@@ -30,7 +30,7 @@ export default function Contact() {
                     <h3>Contact Info</h3>
                     <p>
                         <Linkedin />
-                        <a href="https://www.linkedin.com/in/suejin-kim-aa60571bb" className="contact-links"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                        <a href="https://www.linkedin.com/in/suejinkim" className="contact-links"><i class="fab fa-linkedin"></i> LinkedIn</a>
                     </p>
                     <p>
                         <Github />
