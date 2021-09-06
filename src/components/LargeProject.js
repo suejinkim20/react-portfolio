@@ -9,7 +9,7 @@ export default function LargeProject({largeProjects}) {
         <Row className='m-2 justify-content-center'>
             {largeProjects.map((project) => (
                 <Card className="card m-4 col-lg-5 col-sm-12 p-0">
-                    <Card.Img src={project.image} variant="top" alt={project.title}/>
+                    <Card.Img src={process.env.PUBLIC_URL + project.image} variant="top" alt={project.title}/>
                     <Card.Body>
                         <h5 className="card-title">{project.title}</h5>
                         <div className="card-text m-1 p-1">

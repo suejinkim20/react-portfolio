@@ -43,6 +43,8 @@ This website is a portfolio website intended to showcase the website developer's
     * project 2 photo: https://images.unsplash.com/photo-1522032662723-6649e699785f?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1950&q=80
 * Responsive Nav: https://www.w3schools.com/howto/howto_js_topnav_responsive.asp
 * Resizing Background Images: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Backgrounds_and_Borders/Resizing_background_images
+* Helpful Link about linking images: https://stackoverflow.com/questions/47196800/reactjs-and-images-in-public-folder
+
 
 
 ## Licensing

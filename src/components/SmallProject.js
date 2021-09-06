@@ -8,7 +8,7 @@ export default function SmallProject({smallProjects}) {
       <Row className='m-1 justify-content-center'>
           {smallProjects.map((project) => (
                 <Card className="card m-3 p-0 col-lg-3 col-sm-12">
-                    <Card.Img src={project.image} variant="top" alt={project.title} />
+                    <Card.Img src={process.env.PUBLIC_URL + project.image} variant="top" alt={project.title} />
                     <Card.Body>
                         <h5 className="card-title">{project.title}</h5>
                         <div className="card-text m-1 p-1">
