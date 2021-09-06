@@ -20,8 +20,8 @@ export default function About() {
                 <div className="col-lg-7 col-sm-12">
                     <article className="about-me-text">
                         <h2>About Me</h2>
-                        <p>Full Stack Web Developer (MERN Stack) with a background in classroom teaching.  Recognized for strong work ethic and relationship-building skills with colleagues and students. Dedicated, creative, self-reflective problem solver. Passionate about designing and writing clean, user-friendly, and efficient web applications. Constructive collaborator committed to finding and communicating solutions. Perpetual learner and improver. Graduate of UNC- Chapel Hill Coding Bootcamp with an A+ average. 
-</p>
+                        <p>Full Stack Web Developer (MERN Stack) with 7 years of experience in classroom teaching. Recognized for strong work ethic and relationship-building skills with colleagues and students while meeting quarterly and yearly goals. Passionate about finding creative solutions to problems of a variety of scales. Adaptable, self-reflective, perpetual learner and improver.</p>
+                        <p>Graduate of UNC-Chapel Hill Coding Bootcamp with an A+ average on assignments and projects. Dedicated to designing and developing clean, user-friendly, and efficient web applications, with technical skills in Javascript, ReactJS, and GraphQL. Constructive collaborator committed to finding and communicating solutions</p>
                     </article>
 
                 </div>
