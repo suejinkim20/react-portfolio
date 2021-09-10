@@ -12,20 +12,26 @@ export default function About() {
             <div className="m-3 mt-4 text-center">
                 <Image src={suejinKim} width="150px" roundedCircle/>
                 <h1>Sue Jin Kim</h1>
-                <p className="subheader">MERN full stack web developer</p>
-                <p>MongoDb/Mongoose, ExpressJs, ReactJs, NodeJs</p>
+                <p className="subheader">full stack web developer</p>
+                <p>JavaScript, HTML, CSS, React.js, Node.js, GraphQL, SQL, NoSQL/MongoDB</p>
             </div>  
             <hr />
             <Row className='mb-5' id='about-me-container justify-content-center'>
                 <div className="col-lg-7 col-sm-12">
                     <article className="about-me-text">
                         <h2>About Me</h2>
-                        <p>Full Stack Web Developer (MERN Stack) with 7 years of experience in classroom teaching. Recognized for strong work ethic and relationship-building skills with colleagues and students while meeting quarterly and yearly goals. Passionate about finding creative solutions to problems of a variety of scales. Adaptable, self-reflective, perpetual learner and improver.</p>
-                        <p>Graduate of UNC-Chapel Hill Coding Bootcamp with an A+ average on assignments and projects. Dedicated to designing and developing clean, user-friendly, and efficient web applications, with technical skills in Javascript, ReactJS, and GraphQL. Constructive collaborator committed to finding and communicating solutions</p>
+                        <p>Full Stack Web Developer with 7 years of experience in classroom teaching. Recognized for strong work ethic and relationship-building skills with colleagues and students while meeting quarterly and yearly goals. Passionate about finding creative solutions to problems of a variety of scales. Adaptable, self-reflective, perpetual learner and improver.</p>
+                        <p>Graduate of UNC-Chapel Hill Coding Bootcamp with an A+ average on assignments and projects. Dedicated to designing and developing clean, user-friendly, and efficient web applications, with technical skills in Javascript, ReactJS, and GraphQL. Constructive collaborator committed to finding and communicating solutions.</p>
                     </article>
-
+                    <article className="about-me-text">
+                        <h2>Technical Skills</h2>
+                        <p>JavaScript (ES6), Object Oriented Programming, RESTful APIs, GitHub Collaboration, Version Control, HTML, HTML5, CSS, CSS3, Bootstrap, Responsive Web Design, Media Queries,  React.js, Material UI, Node.js, Express, SQL databases, MySQL, Sequelize, NoSQL databases, MongoDB, Mongoose, Apollo Client, Apollo Server,  GraphQL, Heroku</p>
+                    </article>
                 </div>
                 <div className="contact-me col-lg-4 col-sm-12 text-center">
+                    <br></br>
+                    <br></br>
+                    <br></br>
                     <p>
                         <Linkedin />
                         <a href="https://www.linkedin.com/in/suejinkim" className="contact-links"> LinkedIn</a>
