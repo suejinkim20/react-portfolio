@@ -42,7 +42,7 @@ export default function Contact() {
                     </p>
                     <p>
                         < FileEarmarkText />
-                        <a href="https://bit.ly/sjk_resume" className="contact-links"> <i class="fas fa-file"></i> Resume</a>
+                        <a href="https://bit.ly/sjk_resume_v3" className="contact-links"> <i class="fas fa-file"></i> Resume</a>
                     </p>
                     <p>
                         < EnvelopeOpen />

@@ -40,7 +40,7 @@ export default function About() {
                     </p>
                     <p>
                         <FileEarmarkText />
-                        <a href="https://bit.ly/sjk_resume" className="contact-links"> Resume</a>
+                        <a href="https://bit.ly/sjk_resume_v3" className="contact-links"> Resume</a>
                     </p>
                     <p>
                         <EnvelopeOpen />
